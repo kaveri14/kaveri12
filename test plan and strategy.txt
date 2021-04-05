@@ -1,0 +1,53 @@
+
+
+TEST STRATEGY:STEPS
+========================
+
+1)ASSESS TESTABILITY:
+==================
+    --> Operability   	  :4
+    --> Cntrollability	  :5
+    --> Observability	  :5
+    --> Simplicity	  :3
+    --> Undestandability  :5
+    --> Suitabilty	  :5
+    --> Stability	  :5
+
+2)TEST FACTORS: 
+==============
+     * Authorization	       :- Integration Testing
+     * Correctness	       :- Integration Testing
+     * Access control	       :- System testing
+     * Reliabilty	       :- uat
+     * Performance	       :- system testing
+     * Integrity	       :- system testing
+     * Continuity of processing:-  post UAT
+
+
+3)ASSESS DRIVERS THAT WOULD INFLUENCE TESTING/APPROACH:-
+================================================
+
+      --> Authorization --->Integration testing --->tester(Quality analyst)/validation/blackbox
+      --> Correctness ---> Integration testing --->tester/validation/blackbox/dynamic
+      --> Access control ---> system testing --->tester/verification/blackbox
+      --> Reliabilty ---> to what extent we trust ---> uat(client/customer)
+      --> performance ---> system ---> tester
+      --> integrity ---> system testing ---> tester
+      --> continuity of processing ---> post UAT---> client
+
+
+
+TEST PLAN:
+=========
+
+   1)Test item:- Application name
+   2)Software risk issues:- Security,performance
+   3)Features to be tested(user stories):- Register users,manager and member function,Admin Funtions
+   4)Features not to be tested:- new version(which is not a scope)
+   5)Approach:- Whitebox,  blackbox(It contains code and UI)
+   6)Test deliverables:- source code,Test scenario,test plan,test case,test execution report,test report,defect report
+   7)Item pass/fail criteria:- If i find 5 minor bugs,1 major bug,with no critical/shoew stopper in this case (pass)
+   8)Suspension&resumption criteria:- Show stooper in application/non-availabilty of resouce/when this is resolved
+   9)Responsibility:- project manager,TEST LEAD,TESTER,CUSTOMER
+   10)Staffing and testing needs:- Testing needs
+   11)Schedule:- 2 weeks
